@@ -1,0 +1,68 @@
+.bus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+  gap:5px;
+}
+
+.seat {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #55976d;
+  margin: 5px;
+  background-color: #70d495;
+  gap:8px; 
+}
+h1{
+  text-align:center;
+}
+.modal{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+label{
+  row-gap:10;
+}
+.submit{
+  background-color:grey;
+}
+.btn-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+}
+
+.btn-1 button {
+  width: 45%; 
+}
+.booked {
+  background-color: lightgrey;
+
+
+.female {
+  background-color: pink;
+}
+
+
+.male-seat {
+  background-color: grey;
+}
+}
+
